@@ -6,11 +6,12 @@
 //  Copyright © 2019 Felix ITs. All rights reserved.
 //
 //delegate design pattern
+//swiftdelegate
 import UIKit
 
 class ViewController: UIViewController,UpdateLabelTextDelegate {
 
-    
+    //gfnhbhm
     @IBOutlet weak var Label: UILabel!
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let next = segue.destination as! NextViewController
